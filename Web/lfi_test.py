@@ -1,4 +1,4 @@
-# Usage: python3 lfi_test.py -t http://example.com/index.php?page= -f payloads.txt
+# Usage: python3 lfi_test.py -t <URL> -f <Payload File>
 
 import requests
 import argparse
