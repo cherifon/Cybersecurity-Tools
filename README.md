@@ -11,6 +11,7 @@
     - [Password Attacks](#password-attacks)
     - [Scans](#scans)
     - [Web](#web)
+    - [Automatisation](#automatisation)
   - [Contributing](#contributing)
   - [License](#license)
   - [Acknowledgements](#acknowledgements)
@@ -61,6 +62,12 @@ To be added.
 | ---- | ----------- | ----- |
 | [Local File Inclusion Tester](web/lfi_test.py) | A Local File Inclusion Tester is a tool that tests a target's system for Local File Inclusion vulnerabilities. | `python3 lfi_test.py -t <URL> -f <Payload File>` |
 | [XSS Tester](web/xss_tester.py) | A XSS Tester is a tool that tests a target's system for Cross-Site Scripting vulnerabilities. | `python3 XSS_tester.py -u <URL> -f <Payload File>` |
+
+### Automatisation 
+
+| Tool | Description | Usage |
+| ---- | ----------- | ----- |
+| [Auto-Bounty](automatisation/Auto-Bounty.sh) | A simple bash script for automating basic pentesting tasks, like reconnaissance or vulnerability scanning.| `sudo chmod +x Auto-Bounty.sh` then `./Auto-Bounty.sh <URL>` |
 
 ## Contributing
 
